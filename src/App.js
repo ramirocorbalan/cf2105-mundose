@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./views/Landing";
 import Navbar from "./views/Navbar";
 import About from "./views/About";
@@ -9,18 +8,26 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar></Navbar>
+
       <div>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="landing" id="landing">
+          <Navbar />
+          <Landing />
+        </div>
+        <div className="about" id="about">
+          <About />
+        </div>
+        <div className="products" id="products">
+          <Products />
+        </div>
+        <div className="services" id="services">
+          <Services />
+        </div>
+        <div className="contact" id="contact">
+          <Contact />
+        </div>
       </div>
-    </BrowserRouter>
+
   );
 }
 

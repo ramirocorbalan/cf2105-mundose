@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import './index.scss'
 
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             25Whatts
@@ -21,21 +21,21 @@ function Navbar() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="/">
                 Landing
-              </Link>
-              <Link className="nav-link" to="/about">
+              </a>
+              <a className="nav-link" href="#about">
                 About
-              </Link>
-              <Link className="nav-link" to="/products">
+              </a>
+              <a className="nav-link" href="#products">
                 Products
-              </Link>
-              <Link className="nav-link" to="/services">
+              </a>
+              <a className="nav-link" href="#services">
                 Services
-              </Link>
-              <Link className="nav-link" to="/contact">
+              </a>
+              <a className="nav-link" href="#contact">
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>
