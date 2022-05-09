@@ -1,12 +1,12 @@
-import './index.scss'
+//import "./index.scss";
 
 function Navbar() {
   return (
-    <div>
+    <div class="section-navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            25Whatts
+            <img src="./top-logo.png" alt="logo 25Watts" />
           </a>
           <button
             class="navbar-toggler"
@@ -20,9 +20,9 @@ function Navbar() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav ms-auto">
               <a className="nav-link" href="/">
-                Landing
+                Home
               </a>
               <a className="nav-link" href="#about">
                 About
