@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div class="row section-about">
-      <div class="col-7 col-offset-3">
+    <div className="row section-about">
+      <div className="col-7 col-offset-3">
         <h2>
           We Help Businesses <span>Grow and Innovate</span>
         </h2>

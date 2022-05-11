@@ -10,7 +10,7 @@ function Landing() {
         accusantium doloremque.
       </p>
 
-      <button type="button" class="btn btn-primary btn-lg">
+      <button type="button" class="btn btn-primary btn-lg button-landing">
         Read more
       </button>
     </div>

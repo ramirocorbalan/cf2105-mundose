@@ -11121,10 +11121,9 @@ textarea.form-control-lg {
   }
 }
 .section-navbar {
-  background-color: transparent;
   border-bottom: 1px solid #E0752F;
   height: 96px;
-  padding-right: 110.5px;
+  margin-left: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -11140,18 +11139,28 @@ textarea.form-control-lg {
 .section-landing {
   color: white;
   width: 1366px;
-  height: 768px;
   background-image: url("../images/slider-1.png");
-  background-repeat: cover;
+}
+.section-landing .button-landing {
+  top: 480px;
+  left: 101px;
+  width: 144px;
+  height: 48px;
+  background: #E0752F;
+  border-radius: 25px;
+  border-color: #E0752F;
+  opacity: 1;
 }
 .section-landing h2, .section-landing .h2 {
   top: 254px;
   left: 101px;
   width: 554px;
-  padding-top: 200px;
+  padding-top: 158px;
+  padding-bottom: 30px;
   /* UI Properties */
   text-align: left;
-  font: normal normal 600 48px/48px Poppins;
+  font: normal normal 450 48px/48px Poppins;
+  letter-spacing: 0.67px;
   color: #FFFFFF;
   opacity: 1;
 }
@@ -11166,12 +11175,20 @@ textarea.form-control-lg {
   letter-spacing: 0.22px;
   color: #FFFFFF;
   opacity: 1;
+  padding-bottom: 70px;
+}
+
+.landing-content {
+  height: 672px;
+  margin-left: 0px;
 }
 
 .section-about {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 167px;
+  margin-bottom: 164px;
 }
 .section-about h2, .section-about .h2 {
   font: normal normal 600 39px/45px Poppins;
@@ -11184,6 +11201,36 @@ textarea.form-control-lg {
 .section-about p {
   font: normal normal normal 16px/28px Roboto;
   text-align: left;
+}
+
+.about-organge-bar {
+  width: 32px;
+  height: 384px;
+  /* UI Properties */
+  background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+  background: #E0752F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.section-products {
+  height: 768px;
+}
+
+.section-products-background {
+  background-image: url("../images/section3-image.png");
+  background-repeat: no-repeat;
+  margin-top: 104px;
+  margin-bottom: 112px;
+  padding-right: 0px;
+}
+.section-products-background .section-products-description {
+  background-color: #E0752F;
+  width: 471px;
+  height: 304px;
+}
+
+.section-services {
+  height: 768px;
 }
 
 /*# sourceMappingURL=app.css.map */
